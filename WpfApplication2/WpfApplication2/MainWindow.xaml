@@ -4,10 +4,8 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <TextBox Name="textbox1" HorizontalAlignment="Left" Height="185" Margin="10,10,0,0" TextWrapping="Wrap" AcceptsReturn="True" Text="TextBox" VerticalAlignment="Top" Width="155"/>
-        <TextBox Name="lat" HorizontalAlignment="Left" Height="23" Margin="281,42,0,0" TextWrapping="Wrap" Text="42.293966" VerticalAlignment="Top" Width="120"/>
-        <TextBox Name="lng" HorizontalAlignment="Left" Height="23" Margin="281,19,0,0" TextWrapping="Wrap" Text="-83.715645" VerticalAlignment="Top" Width="120"/>
-        <TextBox Name="query" HorizontalAlignment="Left" Height="23" Margin="281,65,0,0" TextWrapping="Wrap" Text="mhacks" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Send" HorizontalAlignment="Left" Margin="281,102,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox Name="query" HorizontalAlignment="Left" Height="23" Margin="281,42,0,0" TextWrapping="Wrap" Text="query" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Send" HorizontalAlignment="Left" Margin="281,70,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
 
     </Grid>
 </Window>
