@@ -39,8 +39,10 @@ namespace WpfApplication2
             using (var client = new HttpClient())
             {
                 // want to talk to azure server
-                var responseString = client.GetStringAsync(string.Format("http://oauthbridge.azurewebsites.net/?query={0}", query.Text));
-                textbox1.Text = responseString.Result;
+                var responseString = client.GetStringAsync(string.Format("http://oauthbridge.azurewebsites.net/home/GetTweets?query={0}&lat={1}&lng{2}", query.Text, lat.Text, lng.Text));
+
+                Console.Out.WriteLine(responseString.Result);
+                // textbox1.Text = responseString.Result;
             }
 
         }
